@@ -20,24 +20,6 @@ Ce dépôt contient les données et scripts associés à une enquête visant à 
 
 Quels facteurs influencent le choix de destination Erasmus chez les étudiants ?
 
-### Type de données
-
-- Données catégorielles (genre, niveau d’étude, région)
-- Données ordinales (échelles de Likert 1–5)
-- Données de classement (préférences de destinations)
-- Données textuelles (réponses ouvertes)
-
-### Période de collecte
-
-Du 16 février 2026 à 16h30 jusqu’au 27 février 2026 à 17h30.
-
-### Population
-
-Échantillon composé principalement d'étudiants universitaires francophones (N = 170)
-
-### Méthode de collecte
-
-Questionnaire en ligne diffusé via Microsoft Forms.
 
 ## STRUCTURE DES FICHIERS
 
@@ -61,12 +43,6 @@ Scripts permettant les analyses et les figures.
 `→ data_dictionary.csv`  
 `→ LICENSE.txt`
 
-## NETTOYAGE ET TRANSFORMATIONS
-
-- Suppression des réponses incomplètes
-- Recodage des réponses « Peut-être » en « Oui » pour l’analyse binaire
-- Codage des échelles de Likert (1 = Très peu → 5 = Très fort)
-
 ## REPRODUCTION DES ANALYSES
 
 Les analyses peuvent être reproduites en :
@@ -82,6 +58,9 @@ Aucune donnée personnelle identifiable n’est incluse.
 
 Wautot L., Jamar Rodriguez N., Vanderlinden E., Damien L. (2026).
 Erasmus Survey Dataset. UCLouvain.
+
+Les métadonnées complètes du jeu de données sont disponibles dans :
+metadata/metadata.md
 
 ## License
 
